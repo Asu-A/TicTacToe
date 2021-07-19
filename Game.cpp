@@ -6,7 +6,7 @@
 //  Copyright © 2021 Frenica Torn. All rights reserved.
 //
 
-#include "game.hpp"
+#include "Game.hpp"
 
 Game::Game(int& mapSize, int& plNum, sf::RenderWindow& window, t_data* data) : _window(window), _players(plNum), _fieldSize(mapSize) {
 	_plO = 'O';

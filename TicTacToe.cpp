@@ -30,7 +30,7 @@ int main() {
 	Menu myMenu(&data, window);
 	std::pair<int, int> params(myMenu.renderScreen(&data));
 	Game myGame(params.first, params.second, window, &data);
-	Sleep(200);
+	sleep(1);
 	while (window.isOpen()) {
 		Event event;
 		while (window.pollEvent(event))

@@ -3,7 +3,7 @@
 //  XO
 //
 //  Created by Frenica Torn on 7/16/21.
-//  Copyright © 2021 Frenica Torn. All rights reserved.
+//  Copyright ï¿½ 2021 Frenica Torn. All rights reserved.
 //
 
 #ifndef tictactoe_hpp
@@ -11,8 +11,8 @@
 #define NOMINMAX
 
 #include <vector>
-//#include <unistd.h>
-#include <windows.h>
+#include <unistd.h>
+//#include <windows.h>
 #include <SFML/Graphics.hpp>
 
 using namespace sf;

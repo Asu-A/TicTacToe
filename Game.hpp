@@ -12,8 +12,6 @@
 #include "TicTacToe.hpp"
 #include <SFML/Graphics.hpp>
 
-class Tail;
-
 class Game {
 private:
 	sf::RenderWindow& _window;

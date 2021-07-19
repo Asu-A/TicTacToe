@@ -117,4 +117,5 @@ std::pair<int, int> Menu::renderScreen(t_data* data) {
 		_window.draw(_twoPl);
 		_window.display();
 	}
+	return std::pair<int, int>(_fieldSize, _players);
 };
